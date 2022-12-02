@@ -260,8 +260,13 @@ h6 a {
     width: 1200px;
 }
 
+.main-header-div {
+    padding: 5%;
+    text-align: center;
+}
+
 .article-section1 {
-    height: 549px;
+    height: 475px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -294,6 +299,7 @@ h6 a {
 }
 
 #Section-div2 {
+    margin-left: 477px;
     left: 70px;
     bottom: 40px;
     padding: 10px;
@@ -353,10 +359,9 @@ h6 a {
 /* paragraph text under headers */
 
 .members-p {
-    position: relative;
     width: 60%;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 4%;
     padding-bottom: 30px;
     bottom: 400px;
     right: 7px;
@@ -399,6 +404,13 @@ table {
 }
 
 
+/* Parent Div for Section 1 */
+
+.Parent-Section-div {
+    height: 500px;
+}
+
+
 /* Section class */
 
 section {
@@ -409,13 +421,14 @@ section {
 /* Square class */
 
 .square {
-    height: 300px;
-    width: 300px;
-    background-color: 808080;
-    margin: 0;
+    height: 200px;
+    width: 200px;
+    bottom: 375px;
+    left: 30px;
+    display: inline-block;
     position: relative;
-    left: 18%;
-    background-color: #1075a9;
+    border: 1px;
+    border-style: solid;
 }
 
 
