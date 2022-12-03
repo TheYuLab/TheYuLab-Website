@@ -2126,6 +2126,7 @@ ul.social li a.fa-google-plus:hover {
 
 #nav {
     margin: 2.5em 0 0 0;
+    
 }
 
 #nav>ul {
@@ -2135,6 +2136,8 @@ ul.social li a.fa-google-plus:hover {
 #nav>ul>li {
     display: inline-block;
     font-style: Poppins;
+    font-weight: bold;
+    font-size: 150%;
     margin: 0 0.35em 0 0.35em;
 }
 
@@ -2227,6 +2230,7 @@ ul.social li a.fa-google-plus:hover {
     position: relative;
     padding: 16em 0;
     margin: 4em 0 0 0;
+    margin-top: 45px;
 }
 
 #banner header {
