@@ -2134,6 +2134,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #nav>ul>li {
+    
     display: inline-block;
     font-style: Poppins;
     font-weight: bold;
@@ -2173,7 +2174,7 @@ ul.social li a.fa-google-plus:hover {
     background-color: #252122;
     background-color: rgba(34, 30, 31, 0.98);
     padding: 1.25em 1.5em 1.25em 1.5em;
-    font-style: italic;
+    font-style: Poppins;
     min-width: 13em;
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.5);
     text-align: left;
