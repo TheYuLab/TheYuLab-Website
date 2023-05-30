@@ -2023,6 +2023,8 @@ ul.social li a.fa-google-plus:hover {
     border-bottom: solid 1px #ccc;
     padding: 5em 0 4em 0;
     text-align: center;
+
+    
 }
 
 #header h1 {
@@ -2038,6 +2040,9 @@ ul.social li a.fa-google-plus:hover {
 
 #logo {
     padding-right: 80%;
+    background-image: url("images/ub_background.png");
+    background-size:  360px;
+    background-repeat: no-repeat;
 }
 
 
