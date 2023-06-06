@@ -2161,7 +2161,7 @@ ul.social li a.fa-google-plus:hover {
 
 #banner img {
     background-position: center center; 
-    max-width: 50%;
+    max-width: 100%;
     max-height: 50;
 }
 
@@ -2185,6 +2185,45 @@ ul.social li a.fa-google-plus:hover {
     font-style: normal;
     margin: 0;
     font-size: 1.5em;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+#banner .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+#banner .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Fading animation */
+#banner .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
 }
 
 
@@ -2266,13 +2305,20 @@ ul.social li a.fa-google-plus:hover {
 	font-weight: 400;
 }
 #pub h2 {
-    font-size: 150%;
+    font-size: 100%;
 	letter-spacing: 3px;
 	font-weight: 400;
     padding-top: 30px;
+    padding-bottom: 1px;
 }
+
+#pub figcaption {
+    font-size: 115%;
+    padding-top: 10px;
+}
+
 #pub header {
-	background: #3f51b5;
+    background-image: url("images/ub_background.png");
 	color: #fff;
 	padding: 150px 0;
 }
@@ -2290,7 +2336,7 @@ ul.social li a.fa-google-plus:hover {
 	content: '';
 	background: #c5cae9;
 	width: 5px;
-	height: 95%;
+	height: 98%;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -2345,7 +2391,7 @@ ul.social li a.fa-google-plus:hover {
 #pub .timeline-img {
 	width: 30px;
 	height: 30px;
-	background: #3f51b5;
+	background: #045CBC;
 	border-radius: 50%;
 	position: absolute;
 	left: 50%;
@@ -2353,7 +2399,7 @@ ul.social li a.fa-google-plus:hover {
 	margin-left: -15px;
 }
 #pub a {
-	background: #3f51b5;
+	background: #045CBC;
 	color: #fff;
 	padding: 8px 20px;
 	text-transform: uppercase;
@@ -2365,7 +2411,7 @@ ul.social li a.fa-google-plus:hover {
 	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .6);
 }
 #pub a:hover, a:active, a:focus {
-	background: #32408f;
+	background: #045CBC;
 	color: #fff;
 	text-decoration: none;
 }
@@ -2400,7 +2446,7 @@ ul.social li a.fa-google-plus:hover {
 	padding: 0 20px;
 }
 #pub .date {
-	background: #ff4081;
+	background: #045CBC;
 	display: inline-block;
 	color: #fff;
 	padding: 6px;
@@ -2554,6 +2600,8 @@ ul.social li a.fa-google-plus:hover {
         padding: 6em 0;
         margin: 3em 0 0 0;
     }
+
+    
     /* Intro */
     #intro {
         padding: 0;
