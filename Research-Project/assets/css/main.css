@@ -2559,6 +2559,12 @@ ul.social li a.fa-google-plus:hover {
     padding: 0.85em 2.25em 0.85em 2.25em;
 }
 
+div.dropdown{
+    padding-top: 8px;
+}
+.dropdown-content{
+    display: none;
+}
 
 /* XLarge */
 
