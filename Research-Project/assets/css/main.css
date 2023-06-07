@@ -348,6 +348,7 @@ section {
     position: absolute;
     border: 1px;
     border-style: solid;
+    object-fit: cover;
     
 }
 
