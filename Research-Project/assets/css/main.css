@@ -183,6 +183,10 @@ h6 a {
     text-align: center;
 }
 
+#main.article-section1{
+    padding: 4em 0 0 0;
+}
+
 .article-section1 {
     height: auto;
 }
