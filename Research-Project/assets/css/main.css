@@ -184,7 +184,7 @@ h6 a {
 }
 
 .article-section1 {
-    height: 475px;
+    height: auto;
 }
 
 @media screen and (max-width: 1680px) {
@@ -325,7 +325,7 @@ table {
 /* Parent Div for Section 1 */
 
 .Parent-Section-div {
-    height: 500px;
+    height: auto;
 }
 
 
@@ -341,12 +341,14 @@ section {
 .square {
     height: 200px;
     width: 200px;
-    bottom: 375px;
-    left: 30px;
+    top: 0;
+    margin-top: 3%;
+    left: 5%;
     display: inline-block;
-    position: relative;
+    position: absolute;
     border: 1px;
     border-style: solid;
+    
 }
 
 
