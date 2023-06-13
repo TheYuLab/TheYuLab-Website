@@ -2311,6 +2311,9 @@ ul.social li a.fa-google-plus:hover {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 400;
+    background-color: white;
+    width: 22.5%;
+    margin: auto auto;
 }
 #pub h2 {
     font-size: 100%;
