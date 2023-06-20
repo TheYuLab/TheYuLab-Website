@@ -367,9 +367,6 @@ table {
 
 /* Section class */
 
-section {
-    /* #005bbb used on UB's website*/
-}
 
 
 /* Square class */
@@ -1424,7 +1421,7 @@ form input[type=email],
 form input[type=password],
 form select,
 form textarea {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     display: block;
     border: 0;
     padding: 0.75em 1em;
@@ -1589,7 +1586,7 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
@@ -2570,7 +2567,7 @@ ul.social li a.fa-google-plus:hover {
 #main {
     position: relative;
     background: #f7f7f7 url("images/bg02.png");
-    padding: 4em 0 4em 0;
+    padding: 0 0 0 0;
 }
 
 #main:before {
