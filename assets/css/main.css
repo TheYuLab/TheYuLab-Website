@@ -187,6 +187,10 @@ h6 a {
     padding: 4em 0 0 0;
 }
 
+#main.article-section2{
+    padding: 0 0 0 0;
+}
+
 .article-section1 {
     height: auto;
 }
@@ -225,6 +229,23 @@ h6 a {
     left: 70px;
     bottom: 40px;
     padding: 10px;
+}
+
+
+
+#Section-div3 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+#Section-div4 {
+    margin-left: 10px;
+    left: 70px;
+    bottom: 40px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 .lower-header1 {
@@ -325,6 +346,17 @@ table {
     margin-bottom: 2em;
 }
 
+
+/* Used for bec's cake lab link */
+
+#beclab{
+    /* color: #0000ee; */
+    color: black;
+}
+
+#beclab:hover{
+    text-decoration: underline;
+}
 
 /* Parent Div for Section 1 */
 
