@@ -305,7 +305,7 @@ h6 a {
     width: 60%;
     margin-left: 30%;
     margin-top: 4%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     bottom: 400px;
     right: 7px;
 }
@@ -362,6 +362,8 @@ table {
 
 .Parent-Section-div {
     height: auto;
+    width: auto;
+    /* padding: 0px; */
 }
 
 
