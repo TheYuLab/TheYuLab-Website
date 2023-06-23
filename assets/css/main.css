@@ -6,16 +6,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
+html, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
+pre, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+u, i, center, dl, dt, dd, ol, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, header, hgroup, menu, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -25,15 +25,10 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;}
 
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
+ol{
     list-style: none;
 }
 
@@ -55,9 +50,6 @@ table {
     border-spacing: 0;
 }
 
-body {
-    -webkit-text-size-adjust: none;
-}
 
 mark {
     background-color: transparent;
@@ -109,7 +101,6 @@ body.is-preload *:after {
     transition: none !important;
 }
 
-body,
 input,
 textarea,
 select {
@@ -318,11 +309,10 @@ hr {
 }
 
 p,
-ul,
 ol,
 dl,
 table {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 
@@ -1545,9 +1535,6 @@ footer {
     font-size: 1.25em;
 }
 
-.box footer ul.actions {
-    margin-bottom: 0;
-}
 
 
 /* Button */
@@ -1674,41 +1661,19 @@ button.large,
 
 /* List */
 
-ul {
-    list-style: disc;
-    padding-left: 1em;
-}
 
-ul li {
-    padding-left: 0.5em;
-}
 
 ol {
     list-style: decimal;
     padding-left: 1.25em;
 }
 
-ol li {
+ol{
     padding-left: 0.25em;
 }
 
 
 /* Actions */
-
-ul.actions {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul.actions li {
-    display: inline-block;
-    margin-left: 1em;
-    padding-left: 0;
-}
-
-ul.actions li:first-child {
-    margin-left: 0;
-}
 
 
 /* Links */
@@ -2055,102 +2020,33 @@ ul.social li a.fa-google-plus:hover {
 
 
 /* Nav */
+:root {
+    --bs-body-font-family: 'Montserrat', san-serif;
+ }
+ .nav-item{
+    margin-right:40px !important;
+ }
+ ul{
+    margin-left:200px;
+ }
+/* All CSS for nav was used from boostrap
 
-#nav {
-    margin: 2.5em 0 0 0;
-    
+
+/* Card */
+/* .card-text{
+    margin-top: 100px;
+} */
+.card-img-top {
+    height:200px !important
 }
-
-#nav>ul {
-    margin: 0;
+.profile-picture{
+    width:300px;
+    height: 320px !important;
 }
+.card{
+    width:301px;
 
-#nav>ul>li {
-    
-    display: inline-block;
-    font-style: Poppins;
-    font-weight: bold;
-    font-size: 100%;
-    margin: 0 0.35em 0 0.35em;
 }
-
-#nav>ul>li>ul {
-    display: none;
-}
-
-#nav>ul>li>a {
-    border-radius: 5px;
-    color: #5d5d5d;
-    text-decoration: none;
-    padding: 0.6em 1.2em 0.6em 1.2em;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
-    -ms-transition: background-color .25s ease-in-out;
-    transition: background-color .25s ease-in-out;
-    outline: 0;
-}
-
-#nav>ul>li:hover>a,
-#nav>ul>li.active>a {
-    background: #f3f3f3;
-}
-
-#nav>ul>li.current>a {
-    background: #045CBC;
-    color: #fff !important;
-}
-
-.dropotron {
-    border-radius: 5px;
-    background-color: #252122;
-    background-color: rgba(34, 30, 31, 0.98);
-    padding: 1.25em 1.5em 1.25em 1.5em;
-    font-style: Poppins;
-    min-width: 13em;
-    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.5);
-    text-align: left;
-    margin-top: -1.25em;
-    margin-left: -1px;
-    list-style: none;
-}
-
-.dropotron a,
-.dropotron span {
-    color: #aaa;
-    text-decoration: none;
-    -moz-transition: color .25s ease-in-out;
-    -webkit-transition: color .25s ease-in-out;
-    -ms-transition: color .25s ease-in-out;
-    transition: color .25s ease-in-out;
-}
-
-.dropotron li {
-    padding: 0.25em 0 0.25em 0;
-}
-
-.dropotron li:hover>a,
-.dropotron li:hover>span {
-    color: #fff;
-}
-
-.dropotron.level-0 {
-    margin-top: 2em;
-}
-
-.dropotron.level-0:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -10px;
-    top: -9px;
-    border-left: solid 10px transparent;
-    border-right: solid 10px transparent;
-    border-bottom: solid 10px #252122;
-    border-bottom-color: rgba(34, 30, 31, 0.98);
-}
-
-
 /* Banner */
 
 #banner {
@@ -2418,11 +2314,6 @@ ul.social li a.fa-google-plus:hover {
 	border-radius: 2px;
 	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .6);
 }
-#pub a:hover, a:active, a:focus {
-	background: #045CBC;
-	color: #fff;
-	text-decoration: none;
-}
 #pub .timeline-card {
 	padding: 0 ;
 }
@@ -2682,9 +2573,6 @@ div.dropdown{
         padding: 3.5em 0 3em 0;
     }
     /* Nav */
-    #nav {
-        display: none;
-    }
     /* Intro */
     #intro {
         padding: 3em 0 0 0;
