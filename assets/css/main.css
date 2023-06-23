@@ -2307,7 +2307,7 @@ ul.social li a.fa-google-plus:hover {
 	letter-spacing: 3px;
 	font-weight: 400;
     background-color: white;
-    width: 22.5%;
+    width: 27%;
     margin: auto auto;
 }
 #pub h2 {
@@ -2326,7 +2326,8 @@ ul.social li a.fa-google-plus:hover {
 #pub header {
     background-image: url("images/ub_background.png");
 	color: #fff;
-	padding: 150px 0;
+	padding: 170px 0;
+    
 }
 #pub header p {
 	font-family: 'Allura';
