@@ -178,6 +178,10 @@ h6 a {
     padding: 4em 0 0 0;
 }
 
+#main.article-section2{
+    padding: 0 0 0 0;
+}
+
 .article-section1 {
     height: auto;
 }
@@ -216,6 +220,23 @@ h6 a {
     left: 70px;
     bottom: 40px;
     padding: 10px;
+}
+
+
+
+#Section-div3 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+#Section-div4 {
+    margin-left: 10px;
+    left: 70px;
+    bottom: 40px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 .lower-header1 {
@@ -275,9 +296,10 @@ h6 a {
     width: 60%;
     margin-left: 30%;
     margin-top: 4%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     bottom: 400px;
     right: 7px;
+    
 }
 
 .members-p2 {
@@ -316,18 +338,28 @@ table {
 }
 
 
+/* Used for bec's cake lab link */
+
+#beclab{
+    /* color: #0000ee; */
+    color: black;
+}
+
+#beclab:hover{
+    text-decoration: underline;
+}
+
 /* Parent Div for Section 1 */
 
 .Parent-Section-div {
     height: auto;
+    width: auto;
+    /* padding: 0px; */
 }
 
 
 /* Section class */
 
-section {
-    /* #005bbb used on UB's website*/
-}
 
 
 /* Square class */
@@ -1382,7 +1414,7 @@ form input[type=email],
 form input[type=password],
 form select,
 form textarea {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     display: block;
     border: 0;
     padding: 0.75em 1em;
@@ -1544,7 +1576,7 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
@@ -2091,20 +2123,53 @@ ul.social li a.fa-google-plus:hover {
     font-size: 1.5em;
 }
 
-.mySlides {
-    display: none;
-}
 
-/* Slideshow container */
+
+#banner * {
+    box-sizing: border-box
+  }
+#banner body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+#banner .mySlides {
+    display: none
+}
+#banner img {
+    vertical-align: middle;
+}
 #banner .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
-
+/* Next & previous buttons */
+#banner .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+#banner .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+#banner .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 /* Caption text */
 #banner .text {
-    color: #f2f2f2;
+    color: #ffffff;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -2112,22 +2177,56 @@ ul.social li a.fa-google-plus:hover {
     width: 100%;
     text-align: center;
 }
-
-
+/* Number text (1/3 etc) */
+#banner .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* The dots/bullets/indicators */
+#banner .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+#banner .active, .dot:hover {
+    background-color: #111111;
+}
 /* Fading animation */
 #banner .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
-
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
 @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+.prev, .next, .text {
+    font-size: 11px
+}
 }
 
 
@@ -2207,6 +2306,9 @@ ul.social li a.fa-google-plus:hover {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 400;
+    background-color: white;
+    width: 22.5%;
+    margin: auto auto;
 }
 #pub h2 {
     font-size: 100%;
@@ -2359,7 +2461,7 @@ ul.social li a.fa-google-plus:hover {
 #main {
     position: relative;
     background: #f7f7f7 url("images/bg02.png");
-    padding: 4em 0 4em 0;
+    padding: 0 0 0 0;
 }
 
 #main:before {
