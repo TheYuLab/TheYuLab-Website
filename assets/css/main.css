@@ -2052,8 +2052,12 @@ ul.social li a.fa-google-plus:hover {
 
 
 /* Nav */
+body {
+    font-family: 'Montserrat', san-serif !important;
+}
 :root {
     --bs-body-font-family: 'Montserrat', san-serif;
+    --font-family-san-serif: 'Montserrat', san-serif;
  }
  .nav-item{
     margin-right:40px !important;

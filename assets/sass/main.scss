@@ -203,7 +203,6 @@ body {
 
 }
 
-body,
 input,
 textarea,
 select {
@@ -1772,3 +1771,7 @@ ul.social {
 	}
 
 }
+$font-family-base:
+  // Cross-platform generic font family (default user interface font)
+  "Playfair Display",
+  !default;
