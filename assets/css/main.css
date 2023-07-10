@@ -88,7 +88,7 @@ body {
     background-image: url("images/bg02.png");
 }
 
-body.is-preload *,
+/* body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
     -moz-animation: none !important;
@@ -99,7 +99,7 @@ body.is-preload *:after {
     -webkit-transition: none !important;
     -ms-transition: none !important;
     transition: none !important;
-}
+} */
 
 input,
 textarea,
@@ -211,12 +211,12 @@ h6 a {
 }
 
 #Section-div1 {
-    margin-left: 430px;
+    margin-left: 30%;
     bottom: 70px;
 }
 
 #Section-div2 {
-    margin-left: 477px;
+    margin-left: 29%;
     left: 70px;
     bottom: 40px;
     padding: 10px;
@@ -293,7 +293,7 @@ h6 a {
 /* paragraph text under headers */
 
 .members-p {
-    width: 60%;
+    width: 65%;
     margin-left: 30%;
     margin-top: 4%;
     padding-bottom: 10px;
@@ -334,7 +334,9 @@ p,
 ol,
 dl,
 table {
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
+    margin-right: 1.5em;
 }
 
 
@@ -2072,10 +2074,7 @@ ul.social li a.fa-google-plus:hover {
 body {
     font-family: 'Montserrat', san-serif !important;
 }
-:root {
-    --bs-body-font-family: 'Montserrat', san-serif;
-    --font-family-san-serif: 'Montserrat', san-serif;
- }
+
  .nav-item{
     margin-right:40px !important;
  }
@@ -2214,10 +2213,10 @@ body {
 #pub section {
 	padding: 100px 0;
 }
-#pub html, body {
+#pub html {
 	overflow-x: hidden;
 }
-#pub body {
+#pub {
 	font-family: 'Roboto';
 	font-size: 20px;
 	font-weight: 400;
@@ -2493,7 +2492,6 @@ div.dropdown{
 
 @media screen and (max-width: 1680px) {
     /* Basic */
-    body,
     input,
     textarea,
     select {
@@ -2506,7 +2504,6 @@ div.dropdown{
 
 @media screen and (max-width: 1280px) {
     /* Basic */
-    body,
     input,
     textarea,
     select {
@@ -2580,8 +2577,7 @@ div.dropdown{
 
 @media screen and (max-width: 980px) {
     /* Basic */
-    html,
-    body {
+    html {
         overflow-x: hidden;
     }
     /* Box */
@@ -2761,13 +2757,13 @@ div.dropdown{
     #navPanel .depth-0 {
         color: #fff;
     }
-    body.navPanel-visible #page-wrapper {
+    /* body.navPanel-visible #page-wrapper {
         -moz-transform: translateX(275px);
         -webkit-transform: translateX(275px);
         -ms-transform: translateX(275px);
         transform: translateX(275px);
-    }
-    body.navPanel-visible #titleBar {
+    } */
+    /* body.navPanel-visible #titleBar {
         -moz-transform: translateX(275px);
         -webkit-transform: translateX(275px);
         -ms-transform: translateX(275px);
@@ -2778,7 +2774,7 @@ div.dropdown{
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
-    }
+    } */
 }
 
 
@@ -2786,7 +2782,6 @@ div.dropdown{
 
 @media screen and (max-width: 736px) {
     /* Basic */
-    body,
     input,
     textarea,
     select {
