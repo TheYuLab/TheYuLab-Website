@@ -1758,6 +1758,7 @@ ul.links li:first-child {
 ul.contact {
     list-style: none;
     padding-left: 0;
+    margin-left: 0px;
 }
 
 ul.contact li {
@@ -1868,6 +1869,12 @@ ul.divided li:first-child {
 
 
 /* Social */
+
+@media screen and (max-width: 1200px){
+    #social-id{
+        display: none;
+    }
+}
 
 ul.social {
     list-style: none;
