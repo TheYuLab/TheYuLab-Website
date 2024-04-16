@@ -2098,6 +2098,16 @@ ul.social li a.fa-google-plus:hover {
     margin: auto;
 }
 
+/* Twitter Timeline */
+.twitter-timeline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+}
+
 /* Nav */
 body {
     font-family: 'Montserrat', san-serif !important;
