@@ -2104,8 +2104,8 @@ ul.social li a.fa-google-plus:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin: 0;
+    padding-bottom: 8%;
 }
 
 /* Nav */
