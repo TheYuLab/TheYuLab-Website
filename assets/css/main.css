@@ -1901,7 +1901,7 @@ ul.social li a {
     height: 3em;
     text-align: center;
     border-radius: 5px;
-    background: #888;
+    background: #3c5a98;
     -moz-transition: background-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
     -ms-transition: background-color .25s ease-in-out;
@@ -2555,7 +2555,7 @@ div.dropdown{
     header.major h2 {
         padding: 0 1em 0 1em;
     }
-    /* Social */
+    /*  */
     ul.social li {
         margin: 0 0 0.25em 0.75em;
     }
