@@ -2268,7 +2268,8 @@ body {
 	letter-spacing: 3px;
 	font-weight: 400;
     background-color: white;
-    width: 27%;
+    width: 20%;
+    height: 20%;
     margin: auto auto;
 }
 #pub h2 {
@@ -2286,6 +2287,7 @@ body {
 
 #pub header {
     background-image: url("images/ub_background.png");
+    background-size: no-repeat;
 	color: #fff;
 	padding: 170px 0;
     
