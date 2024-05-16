@@ -2074,12 +2074,16 @@ ul.social li a.fa-google-plus:hover {
 
 
 /* Logo */
-
 #logo {
     padding-right: 80%;
     background-image: url("images/ub_background.png");
     background-size:  360px;
     background-repeat: no-repeat;
+}
+
+.navbar-university-logo {
+    margin-left: -25%;
+    margin-right: 1%;
 }
 
 /* Carousel */
