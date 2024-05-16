@@ -2291,8 +2291,7 @@ body {
 
 #pub header {
     background-image: url("images/ub_background.png");
-    background-size: no-repeat;
-	color: #fff;
+    background-repeat: repeat;
 	padding: 170px 0;
     
 }
