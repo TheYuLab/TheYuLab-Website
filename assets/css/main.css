@@ -2082,6 +2082,15 @@ ul.social li a.fa-google-plus:hover {
     background-repeat: no-repeat;
 }
 
+.navbar {
+    width: 100%;
+}
+
+
+.navbar-item {
+    width: 150%
+}
+
 .navbar-university-logo {
     margin-left: -35%;
     margin-right: 10%;
@@ -2120,6 +2129,7 @@ body {
 
  .nav-item{
     margin-right:40px !important;
+    width: max-content;
  }
  ul{
     margin-left:200px;
