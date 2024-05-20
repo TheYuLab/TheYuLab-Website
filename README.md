@@ -7,4 +7,4 @@ If you are having problems testing the website using the Live Server Extension o
 ./ to html for all html page references on the navbar.
 <br>
 &emsp;Example: ./        -> index.html<br> 
-&emsp;&emsp;&emsp;./members -> members.html
+&emsp;&emsp;&emsp;&emsp;&emsp;./members -> members.html
