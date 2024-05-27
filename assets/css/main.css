@@ -85,8 +85,11 @@ html {
 
 body {
     background: #212325;
-    background-image: url("images/Crest_BW.png");
-    
+    background-image: url(images/Crest_BW.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: 26% 71%;
+    background-size: 101%;
 }   
 
 /* body.is-preload *,
@@ -115,7 +118,7 @@ select {
 strong,
 b {
     color: #252122;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 i,
@@ -2082,6 +2085,15 @@ ul.social li a.fa-google-plus:hover {
     background-repeat: no-repeat;
 }
 
+.navbar {
+    width: 100%;
+}
+
+
+.navbar-item {
+    width: 150%
+}
+
 .navbar-university-logo {
     margin-left: -35%;
     margin-right: 10%;
@@ -2120,6 +2132,7 @@ body {
 
  .nav-item{
     margin-right:40px !important;
+    width: max-content;
  }
  ul{
     margin-left:200px;
@@ -2273,7 +2286,6 @@ body {
     top: 0;
     left: 0;
     width: 30%;
-    background: url("images/Crest_BW.png");
     background-size: 100% 100%;
     z-index: 0;
     opacity: 1;
@@ -2443,8 +2455,8 @@ body {
 
 #main {
     position: relative;
-    background: rgba(247, 247, 247, 0.95);
-    background-repeat: repeat;
+    background: rgba(247, 247, 247, 0.9);
+    background-repeat: no-repeat;
     background-size: 100% auto;
     padding: 0 0 0 0;
 }
@@ -2454,12 +2466,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
-    background: url("images/Crest_BW.png");
+    width: 40%;
+    background-image: url(images/Crest_BW.png);
     background-size: 100% 100%;
     z-index: 0;
-    opacity: 0.5;
+    opacity: 1;
 }
+
 
 #main .major h2 {
     background: #f7f7f7;
