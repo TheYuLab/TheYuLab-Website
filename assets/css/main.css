@@ -2108,7 +2108,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 .navbar-brand img {
-    max-width: 100%; 
+    max-width: 95%; 
     height: auto;
 }
 
@@ -2208,7 +2208,7 @@ body {
     text-align: center;     
     position: relative;
     padding: 3em 0;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     padding-left: 450px;
     padding-right: 450px;
