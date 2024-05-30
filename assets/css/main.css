@@ -2091,7 +2091,14 @@ ul.social li a.fa-google-plus:hover {
 
 .navbar-brand{
     width: 50%;
-    
+}
+/* this is to override bootstrap's font-weight: 700 !important that makes the logo small on firefox */
+#override-bootstrap {
+    font-weight: 0;
+}
+
+.navbar-item {
+    width: 150%
 }
 
 .navbar-university-logo {
